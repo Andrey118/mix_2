@@ -1,0 +1,108 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    border-top:10px solid orange; 
+    
+}
+
+.header_bilimkana_logo a {
+    width: 500px;
+    height: 100px;
+    display: block;
+
+}
+
+.header_bilimkana_logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header_top {
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.social_list {
+    display: flex;
+    gap: 10px;
+}
+
+.header_nav {
+    display: grid;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    align-items: center;
+    
+}
+
+.menu li a {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+}
+
+hr {
+    background-color: orange;
+    border: 0.5px solid orange;
+}
+
+
+.hero {
+    background: url(./images/bab0e98c-8804-4d79-a67f-2702aca333b0.jfif);
+    height: 100vh;
+    color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.hero_title{
+    font-size: 60px;
+    padding: 50px 0;
+}
+.hero_slogan{
+    font-size: 30px;
+}
+
+.name_search {
+
+    border: none;
+    text-align: center;
+    height: 40px;
+    width: 100px;
+}
+
+.name_search::placeholder {
+    color: orange;
+}
+
+.insta_facebook i {
+    font-size: 25px;
+    cursor: pointer;
+}
